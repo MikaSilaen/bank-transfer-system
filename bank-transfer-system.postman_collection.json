@@ -1,0 +1,455 @@
+{
+	"info": {
+		"_postman_id": "ca339917-4c9b-4076-8934-03ba06f3ea8c",
+		"name": "bank-transfer-system",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4549580"
+	},
+	"item": [
+		{
+			"name": "push notif",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://mika.wiremockapi.cloud/api/notification/sender/push",
+					"protocol": "https",
+					"host": [
+						"mika",
+						"wiremockapi",
+						"cloud"
+					],
+					"path": [
+						"api",
+						"notification",
+						"sender",
+						"push"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "push notif",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://mika.wiremockapi.cloud/api/notification/sender/push",
+							"protocol": "https",
+							"host": [
+								"mika",
+								"wiremockapi",
+								"cloud"
+							],
+							"path": [
+								"api",
+								"notification",
+								"sender",
+								"push"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Accept",
+							"value": "application/json"
+						},
+						{
+							"key": "Matched-Stub-Id",
+							"value": "a7c126e3-58ac-460b-af0d-b125ec1e6c41"
+						},
+						{
+							"key": "Matched-Stub-Name",
+							"value": "send notif to sender"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Length",
+							"value": "87"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"code\": \"00\",\n    \"message\": \"Transfer Fund is successful\"\n}"
+				}
+			]
+		},
+		{
+			"name": "get PIN",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://mika.wiremockapi.cloud/users/1234567890/pin",
+					"protocol": "https",
+					"host": [
+						"mika",
+						"wiremockapi",
+						"cloud"
+					],
+					"path": [
+						"users",
+						"1234567890",
+						"pin"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "get PIN",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mika.wiremockapi.cloud/users/1234567890/pin",
+							"protocol": "https",
+							"host": [
+								"mika",
+								"wiremockapi",
+								"cloud"
+							],
+							"path": [
+								"users",
+								"1234567890",
+								"pin"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Accept",
+							"value": "application/json"
+						},
+						{
+							"key": "Matched-Stub-Id",
+							"value": "46b9709f-1b43-4029-b4a0-b452be6b8a45"
+						},
+						{
+							"key": "Matched-Stub-Name",
+							"value": "get pin"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Length",
+							"value": "79"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"code\": \"00\",\n    \"message\": \"success\",\n    \"data\": \"1234\"\n}"
+				}
+			]
+		},
+		{
+			"name": "external transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://mika.wiremockapi.cloud/create-external-transfer",
+					"protocol": "https",
+					"host": [
+						"mika",
+						"wiremockapi",
+						"cloud"
+					],
+					"path": [
+						"create-external-transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "external transfer",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://mika.wiremockapi.cloud/create-external-transfer",
+							"protocol": "https",
+							"host": [
+								"mika",
+								"wiremockapi",
+								"cloud"
+							],
+							"path": [
+								"create-external-transfer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Accept",
+							"value": "application/json"
+						},
+						{
+							"key": "Matched-Stub-Id",
+							"value": "d9395ac1-7f05-41fd-b9c0-d8eadf16e70e"
+						},
+						{
+							"key": "Matched-Stub-Name",
+							"value": "external transfer"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Length",
+							"value": "170"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"externalid\": \"bank-transfer-1613014367\",\n    \"amount\": 100000,\n    \"accountsender\": \"3219876540\",\n    \"accountreceiver\": \"3456789120\",\n    \"status\": \"SUCCESS\",\n    \"transfertype\": \"BANK_TRANSFER\"\n}"
+				}
+			]
+		},
+		{
+			"name": "transfer to external bank",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"john_doe\",\r\n  \"password\": \"password123\",\r\n  \"accountNoSender\": \"1234567890\",\r\n  \"pin\": \"1234\",\r\n  \"accountNoDestination\": \"2345678910\",\r\n  \"amount\": 50000.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/transaction/transfer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"transaction",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "transfer to external bank",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "*/*"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"john_doe\",\r\n  \"password\": \"password123\",\r\n  \"accountNoSender\": \"1234567890\",\r\n  \"pin\": \"1234\",\r\n  \"accountNoDestination\": \"2345678910\",\r\n  \"amount\": 50000.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/transaction/transfer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"transaction",
+								"transfer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 13 Jun 2024 07:56:33 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"code\": \"00\",\n    \"message\": \"success\",\n    \"data\": {\n        \"transactionId\": \"bank-transfer-1613014367\",\n        \"message\": \"Bank Transfer to account 2345678910 was successful\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "transfer to internal bank",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"john_doe\",\r\n  \"password\": \"password123\",\r\n  \"accountNoSender\": \"1234567890\",\r\n  \"pin\": \"1234\",\r\n  \"accountNoDestination\": \"5678912340\",\r\n  \"amount\": 50000.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/transaction/transfer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"transaction",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "transfer to internal bank",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "*/*"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"john_doe\",\r\n  \"password\": \"password123\",\r\n  \"accountNoSender\": \"1234567890\",\r\n  \"pin\": \"1234\",\r\n  \"accountNoDestination\": \"5678912340\",\r\n  \"amount\": 50000.00\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/transaction/transfer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"transaction",
+								"transfer"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 13 Jun 2024 08:11:20 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"status\": \"ok\",\n    \"code\": \"00\",\n    \"message\": \"success\",\n    \"data\": {\n        \"transactionId\": \"2e295f3a-e488-4a3d-a029-24c35090cb12\",\n        \"message\": \"Bank Transfer to account 5678912340 was successful\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
